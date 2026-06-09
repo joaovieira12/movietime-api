@@ -2,12 +2,11 @@ const express = require('express');
 const app = express();
 
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
-// Rotas
 const movieRoutes = require('./routes/movieRoutes');
 app.use('/movies', movieRoutes);
 
-// Rota raiz
 app.get('/', (req, res) => {
   res.json({ success: true, message: 'MovieTime API está rodando!' });
 });
