@@ -1,3 +1,4 @@
+// Rotas de filmes — MovieTime API
 const express = require('express');
 const router = express.Router();
 const { createMovie, getAllMovies, getMovieById, updateMovie, deleteMovie } = require('../controllers/movieController');
