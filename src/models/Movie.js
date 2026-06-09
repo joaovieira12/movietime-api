@@ -19,9 +19,8 @@ const Movie = sequelize.define('Movie', {
     type: DataTypes.BOOLEAN,
     defaultValue: false,
   },
-});
+}, { timestamps: true });
 
-// Sincroniza a tabela no banco automaticamente
 sequelize.sync({ alter: true })
   .then(() => console.log('Tabela "Movies" sincronizada com sucesso.'))
   .catch((err) => console.error('Erro ao sincronizar tabela:', err));
