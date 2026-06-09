@@ -1,3 +1,4 @@
+// Controller de filmes — MovieTime API
 const Movie = require('../models/Movie');
 
 const createMovie = async (req, res) => {
