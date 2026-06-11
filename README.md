@@ -1,10 +1,10 @@
-# 🎬 MovieTime API
+# movieTime API
 
 API REST em Node.js com CRUD completo de filmes, usando Express e Sequelize com MySQL.
 
 ---
 
-## 📦 Tecnologias
+## tecnologias
 
 - Node.js
 - Express
@@ -13,7 +13,7 @@ API REST em Node.js com CRUD completo de filmes, usando Express e Sequelize com 
 
 ---
 
-## ⚙️ Como rodar
+## como rodar
 
 ### 1. Clone o repositório
 
@@ -58,7 +58,7 @@ A API estará disponível em `http://localhost:3000`
 
 ---
 
-## 🚀 Endpoints
+## endpoints
 
 ### Base URL: `/movies`
 
@@ -72,7 +72,7 @@ A API estará disponível em `http://localhost:3000`
 
 ---
 
-## 📋 Exemplos de Requisições
+## exemplos de Requisições
 
 ### POST /movies — Criar filme
 
@@ -169,6 +169,7 @@ A API estará disponível em `http://localhost:3000`
 
 ---
 
-## 👥 Autores
+## autores
 
-Projeto desenvolvido como mini-projeto da disciplina de Node.js.
+joao vitor vieira waicampe
+clara luisa
